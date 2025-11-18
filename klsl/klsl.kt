@@ -306,10 +306,6 @@ fun klsl(frontend: Frontend, block: Frontend.() -> Unit): Shader {
 	}
 }
 
-val s = """
-
-"""
-
 // single: 11.143092400s
 // multi : 1.297833300s
 class PPMBackend(private val output: OutputStream) : Backend {
